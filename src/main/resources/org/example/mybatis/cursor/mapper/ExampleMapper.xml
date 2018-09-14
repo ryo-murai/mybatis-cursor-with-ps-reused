@@ -11,5 +11,13 @@
     FROM
       mytable
   </select>
+
+  <select
+          id="collect" resultType="String">
+    SELECT
+    mycolumn
+    FROM
+    mytable
+  </select>
 </mapper>
 

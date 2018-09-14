@@ -35,4 +35,11 @@ public class MyBatisCursorTest {
     cursor.forEach(System.out::println);
     cursor.close();
   }
+
+  @Test
+  public void testResultHandler() {
+    mapper.collect(System.out::println);
+
+    mapper.collect(System.out::println);
+  }
 }
